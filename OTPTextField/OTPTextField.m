@@ -53,6 +53,7 @@
 - (void)customInit {
     self.delegate = self;
     self.placeholderSeparator = @"-";
+    self.secureTextEntry = true
     self.placeholderColor = [UIColor grayColor];
     self.spacing = 30.0;
     __textColor = [UIColor blackColor];
